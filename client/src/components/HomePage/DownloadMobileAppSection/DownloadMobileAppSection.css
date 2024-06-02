@@ -1,0 +1,81 @@
+
+.download-mobile-app-section,.donwload-mobile-app-container,.download-app-buttons-container{
+    display: flex;
+}
+
+.donwload-mobile-app-container,.download-app-buttons-container{
+    flex-direction: row;
+}
+
+.download-mobile-app-section{
+    flex-direction: column;
+}
+
+.download-mobile-app-section{
+    margin-top: 20px;
+    align-items: center;
+}
+
+.download-mobile-app-section{
+    background:linear-gradient(to left,rgb(253, 215, 165),rgb(255, 233, 193)) ;
+}
+
+.donwload-mobile-app-container{
+    gap:80px;
+    margin: 22px 2px 2px 82px;
+}
+
+.download-mobile-app-icon{
+    width: 83%;
+    border-radius: 24px;
+    height: 20vh;
+    position: relative;
+    left: 40%;
+    top:-30%;
+    padding: 22px 12px 8px 12px;
+    
+}
+.donwload-mobile-app-container-content-div span{
+    color:rgb(132, 55, 0);
+    letter-spacing: 1.3px;
+    font-size: 1.4rem;
+}
+
+.donwload-mobile-app-container-content-div p{
+    color:rgb(67, 49, 0);
+    line-height: 33px;
+    font-size: .9rem;
+}
+
+.download-app-buttons-container{
+    gap:20px;
+}
+
+.download-app-buttons-container button{
+    font-size: .97rem;
+    padding: 8px 12px 8px 12px;
+    color:black;
+    background: transparent;
+    border: none;
+    width: 22%;
+    border: 1px solid black;
+}
+
+.download-app-buttons-container button:hover{
+    cursor: pointer;
+    transition: .2s;
+    background: white;
+    color: black;
+    box-shadow: .2px .2px 4px .2px lightgray;
+}
+/* 
+.google-play-button{
+    border: 5px solid black;
+    background: linear-gradient(to left,rgb(25, 9, 0),rgb(0, 0, 0));
+    box-shadow: .2px .2px 4px .2px black;
+} */
+
+/* .apple-app-button{
+    background: linear-gradient(to left,rgb(0, 134, 164),rgb(0, 167, 209));
+    box-shadow: .2px .2px 4px .2px rgb(0, 134, 164);
+} */

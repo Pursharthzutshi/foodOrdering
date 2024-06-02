@@ -1,0 +1,44 @@
+.services-container,.services-div{
+    display: flex;
+}
+
+.services-container{
+    flex-direction: row;
+}
+
+.services-div{
+    flex-direction: column;
+}
+
+.services-section{
+    box-shadow: .2px .2px 3px .2px rgb(220, 161, 0);
+    padding: 24px 2px 2px 2px;
+    width: 99.33%;
+    height: 26.5vh;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-left: 3px;
+    background: linear-gradient(to left,rgba(244, 130, 0, 0.467),rgba(210, 105, 0, 0.5));
+    color:rgb(54, 37, 0);
+}
+
+.services-section h3{
+    margin-top: -10px;
+    text-align: center;
+}
+
+.services-container{
+    margin-top: -4px;
+}
+
+.services-div{
+    align-items: center;
+}
+.services-div p{
+    margin-left: 20px;
+    text-align: center;
+}
+.services-div img{
+    width: 3rem;
+    height: auto;
+}

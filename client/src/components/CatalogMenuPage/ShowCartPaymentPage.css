@@ -1,0 +1,159 @@
+
+.show-cart-payment-page,.payment-cart-cards,.payment-cart-cards-container,.payment-cart-cards-counter-buttons-container,.payment-address-info-form{
+    display: flex;
+}
+
+.show-cart-payment-page,payment-cart-cards,.payment-cart-cards-counter-buttons-container{
+    flex-direction: row;
+}
+
+.payment-cart-cards-container,.payment-address-info-form{
+    flex-direction: column;
+}
+
+.show-cart-payment-page{
+    margin-top: 60px;
+    width: 100%;
+    gap:20px;
+    margin-top: 80px;
+
+}
+
+
+.payment-cart-cards-container{
+    padding-right: 20px;
+    width:40% ;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    box-shadow: .2px .2px 12px .2px lightgray;
+
+}
+
+
+.total-price-section-container{
+    width: 60%;
+    padding: 2px 2px 2px 22px;
+}
+
+
+.cart-empty-heading{
+    text-align: center;
+}
+
+.payment-cart-cards{
+    justify-content: space-between;
+    padding: 12px 2px 2px 42px;
+    width: 90%;
+}
+
+.payment-cart-cards img{
+    width: 6rem;
+    height: auto;
+}
+
+.payment-cart-cards-counter-buttons-container{
+    gap:20px;
+    margin-top: 40px;
+}
+
+.payment-cart-cards .line{
+
+    height: .1rem;
+    background: black;
+}
+
+.payment-cart-cards-counter-buttons-container p{
+    margin-top: -1px;
+}
+
+.payment-cart-cards-counter-buttons-container button{
+    box-shadow: .2px .2px 12px .2px lightgray;
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    width: 2rem;
+    height: 1.3rem;
+}
+
+.payment-address-info-form{
+    gap:20px;
+}
+
+.payment-address-info-form input,.payment-address-info-form textarea{
+    font-family: "Montserrat";
+    border: none;
+    outline: none;
+    box-shadow: .2px .2px 2px .2px lightgray;
+}
+
+.payment-address-info-form input{
+    width:90%;
+    padding: 4px 2px 4px 4px;
+}
+
+.payment-address-info-form textarea{
+    width:90%;
+    height: 8vh;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    padding: 6px 2px 4px 8px;
+}
+
+.pay-button{
+    color: rgba(94, 64, 0, 0.96);
+    background: orange;
+    border: none;
+    padding: 4px 7px 2px 7px;
+    font-size: 1rem;
+    box-shadow: .2px .2px 12px .2px lightgray;
+}
+
+
+.pay-button:hover{
+    transition: .2s;   
+    cursor: pointer;
+    background: white;
+}
+
+.fill-address-msg{
+    color: red;
+}
+
+.saved-address-dialog-box{
+    padding: 2px 2px 22px 22px ;
+    width: 20rem;
+    height: 20%;
+    box-shadow: .2px .2px 12px .2px lightgray;
+}
+
+.cart-empty-heading-div{
+    display: flex;
+    align-items:center; 
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+.cart-empty-heading-div h3{
+    text-align: center;
+}
+
+.delete-item-button,.clear-all-button{
+    box-shadow: .2px .2px 12px .2px;
+    cursor: pointer;
+    letter-spacing: .8px;
+    padding: 4px 6px 4px 6px;
+    border:1px solid rgb(133, 87, 0);    
+    background: linear-gradient(to left,rgb(197, 134, 0),rgb(205, 106, 0));
+    color:rgb(255, 255, 254);
+}
+
+.delete-item-button{
+    padding: 2px 8px 2px 8px;
+    background: linear-gradient(to left,rgb(197, 134, 0),rgb(205, 106, 0));
+    height: 3.7vh;
+    margin-top: 30px;
+
+}
+

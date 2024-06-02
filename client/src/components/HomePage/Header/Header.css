@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: "Roboto";
+}
+
+.header-nav-bar,.header-nav-bar-links-div,.header-nav-button-container,.header-content-div{
+    display: flex;
+}
+
+.header-nav-bar-links-div,.header-nav-button-container,.header-content-div{
+    flex-direction: row;
+}
+
+.header-nav-bar{
+    z-index: +1;
+    position: fixed;
+    top:0%;
+    justify-content: space-between;
+}
+
+.header-section{
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 20px;
+    box-shadow: .2px .2px 12px .2px lightgray;
+}
+
+.header-nav-bar{
+    padding: 2px 22px 2px 2px;
+    margin-top: -15px;
+    width: 98.3%;
+    height: 10vh;
+    background: white;
+}
+
+.header-nav-bar-links-div{
+    padding-top: 10px;
+    gap:20px;
+}
+
+.header-nav-bar-links-div img{
+    width: 3rem;
+    height: auto;
+}
+.header-nav-bar-links-div ul{
+    margin-top: 30px;
+}
+
+.header-nav-bar-links-div li{
+    list-style:none;
+    color:white;
+    padding: 4px 8px 2px 8px ;
+    color: rgb(145, 94, 0);
+
+}
+
+.header-nav-button-container{
+    gap:30px;
+    margin-top: 18px;
+    height: 5vh;
+}
+
+.header-nav-button-container button{
+    font-size: .88rem;
+    background: rgb(109, 25, 0);
+    color:white;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    border: none;
+    padding: 3px 8px 3px 8px;
+    margin-top: 10px;
+    margin-left: 0px;
+
+}
+
+
+.header-section{
+    /* background: linear-gradient(to left,rgb(58, 15, 0),rgb(50, 29, 0)); */
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.header-content-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-content-image-div{
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-evenly;
+}
+
+.header-content-container img{
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 2px 2px 12px 2px;
+    box-shadow: .2px .2px 22px .2px lightgray;
+    width: 14rem;
+    height: auto;
+}
+
+.header-content-image-div img:nth-child(2){
+    transform: rotate(3deg);
+    margin-top: -20px;
+}
+
+.header-content-image-div img:nth-child(3){
+    transform: rotate(-7deg);
+    margin-top: -13px;
+    background: white;
+}
+
+.header-content-container h3{
+    margin: 60px 2px 2px 40px;
+}
+
+.header-content-heading-button-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    
+}
+
+span{
+    color: rgba(220, 150, 0, 0.984);
+}
+
+.header-content-container button{
+    color:white;
+    background: linear-gradient(to left,rgb(209, 136, 0),rgb(183, 119, 0));
+    box-shadow: .2px .2px 12px .2px whitesmoke;
+    border: none;
+    font-size: 1rem;
+    padding: 4px 12px 4px 12px;
+
+}
+
+.header-content-heading-button-div button{
+    color:white;
+    background: linear-gradient(to left,rgb(209, 136, 0),rgb(183, 119, 0));
+    box-shadow: .2px .2px 12px .2px whitesmoke;
+    border: none;
+    font-size: 1rem;
+    padding: 4px 12px 4px 12px;
+}
+
+.header-content-heading-button-div button:hover{
+    background: white;   
+    color:rgb(209, 136, 0);
+    cursor: pointer;
+}
+
+.show-saved-address-button-icon{
+    color:orange;
+    font-size: 2rem;
+}
+
+.cart-button{
+    text-decoration: none;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    padding:5px 12px 2px 12px ;
+    height: 3vh;
+    font-size: .88rem;
+    text-shadow: .2px .3px 6px white;
+    background: orange;
+    color: white;
+    border-radius: 200px;
+    margin: 8px -10px 2px 2px;
+}
+
+.cart-button:hover{
+    background: white;
+    color:orange;
+}
+
+.order-login-button{
+    width: 35%;
+    text-decoration: none;
+}
+
+.order-now-button,.login-button{
+    background:orange;
+    color: white;
+
+}
+
+.order-now-button{
+    padding: 2px 1px 5px 8px;
+    box-shadow: .2px .2px 4px .2px lightgray;
+    font-size: .9rem;
+    text-decoration: none;
+    width: 6rem;
+}
+
+.login-button{
+    width: 12rem;
+    padding: 4px 2px 5px 8px;
+}
+
+.header-logo-div{
+    display: flex;
+    text-decoration: none;
+    height: 6vh;
+    padding: 2px 12px 2px 12px;
+}
+
+.header-logo-div h3{
+    color: black;
+    margin:11px 2px 2px 12px ;
+}
+
+.log-out-button{
+    box-shadow: .2px .2px 2px .2px lightgray;
+    margin-top: 5px;
+    padding: 5px 13px 2px 13px ;
+    font-size: .85rem;
+    height: 2.77vh;
+    color:white;
+    border-radius: 6px;
+    background: linear-gradient(to left,rgb(225, 127, 0),rgb(217, 116, 0));
+    text-decoration: none;
+}
+
+
+.log-out-button:hover{
+    background: white;
+    color:orange;
+    transition: .2s;
+
+}
+
+.cart-logout-button-div{
+    display: flex;
+    gap:30px;
+}
+
+.order-button{
+    text-decoration: none;
+    margin-top: 4px;
+    color: white;
+    font-size: .9rem;
+    border-radius: 200px;
+    box-shadow: .2px .2px 12px .2px ;
+    background: linear-gradient(to left,rgb(139, 63, 0),rgb(183, 58, 0));
+    padding: 6px 12px 2px 12px;
+}

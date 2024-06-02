@@ -1,0 +1,21 @@
+.testimonials-section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+.testimonials-section{
+    flex-direction: row;
+} */
+
+.testimonials-section{
+    gap:20px;
+    margin-top: 20px;
+    box-shadow: .2px .2px 12px .2px lightgray;
+}
+
+.testimonials-div{
+    padding: 2px 2px 2px 12px ;
+    box-shadow: .2px .2px 22px .2px whitesmoke;
+    
+}

@@ -1,0 +1,131 @@
+.catalog-menu-cards-container,.catalog-menu-cards,.catalog-menu-page-buttons-container{
+    display: flex;
+}
+
+.catalog-menu-cards-container,.catalog-menu-page-buttons-container{
+    flex-direction: row;
+}
+
+.catalog-menu-cards{
+    flex-direction: column;
+}
+
+.heading{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.catalog-menu-cards-container{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.image{
+    width: 6rem;
+    height: auto;
+}
+
+.catalog-menu-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog-menu-cards{
+    align-items: center;
+    padding: 12px 2px 12px 12px;
+    width: 16rem;
+    height: 39vh;
+    box-shadow: .2px .2px 12px .2px lightgray ;
+}
+
+.catalog-menu-cards button{
+    font-family: "Montserrat";
+    border: none;
+    outline: none;
+    padding: 4px 2px 4px 2px;
+    width: 6rem;
+    margin-top: 6px;
+    font-size: .83rem;
+    background: linear-gradient(to left,rgb(255, 128, 0),rgb(255, 136, 0));
+}
+
+
+.catalog-menu-cards button:hover{
+    color: white;
+    background: linear-gradient(to left,rgb(183, 52, 0),rgb(186, 65, 0));
+    cursor: pointer;
+
+}
+
+.catalog-menu-page-buttons-container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.catalog-menu-page-buttons-container{
+    gap:20px;
+}
+
+.catalog-menu-page-buttons-container button{
+    font-size: .9rem;
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 200px;
+    background: linear-gradient(to left,rgb(148, 123, 0),rgb(186, 136, 0));
+    /* border: 2px solid rgb(183, 52, 0); */
+}
+
+.catalog-menu-page-buttons-container button:hover{
+    background: white;
+    color:rgb(148, 123, 0);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.search-menu-input-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-menu-input{
+    width: 50%;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    outline: none;
+    border: none;
+    padding: 5px 2px 4px 8px;
+
+}
+
+
+.search-menu-input::placeholder{
+    font-size: .9rem;
+}
+
+.item-added-message{
+    position: fixed;
+    left: 35%;
+    top:20%;
+    background: orange;
+    z-index: +1;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    width: 28%;
+    padding:2px 2px 2px 22px;
+
+}
+
+.item-already-added-msg{
+    color: white;
+}
+
+
+.login-welcome-back-message{
+    color:green;
+}

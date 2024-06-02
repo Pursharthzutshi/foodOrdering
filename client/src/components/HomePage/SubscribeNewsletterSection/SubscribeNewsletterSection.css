@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.subscribe-newsletter-info-section,.subscribe-newsletter-info-left-side{
+    display: flex;
+}
+
+.subscribe-newsletter-info-section{
+    flex-direction: row;
+}
+
+.subscribe-newsletter-info-left-side{
+    flex-direction: column;
+}
+
+.subscribe-newsletter-info-right-side{
+    margin-top: 40px;
+    color: white;
+}
+
+.subscribe-newsletter-info-section{
+    background: linear-gradient(to left,rgba(191, 83, 0, 0.486),rgba(204, 122, 0, 0.497)),url("../../../images/pexels-burak-the-weekender-735869\ \(1\).jpg");
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    gap:50px;
+}
+
+.subscribe-newsletter-info-left-side{
+    font-family: "Montserrat";
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    height: 30vh;
+    padding: 32px 2px 32px 12px;
+    border: 3px solid transparent;
+    box-shadow: .2px .2px 6px .2px rgb(165, 100, 1);
+    background: rgba(191, 83, 0, 0.821);
+    color:  rgb(255, 231, 213);
+    text-shadow: .2px .2px 5px rgb(246, 181, 131) ;
+}
+
+.subscribe-newsletter-info-left-side p{
+    font-size: 1.3rem;
+    word-spacing: 2px;
+
+}
+
+.subscribe-newsletter-info-right-side p{
+    font-size: .95rem;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.subscribe-newsletter-info-right-side input{
+    width: 70%;
+    padding: 7px 2px 6px 8px;
+    box-shadow: .2px .2px 3px .2px white;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+
+.subscribe-newsletter-info-right-side button{
+    background: linear-gradient(to left,rgb(191, 83, 0),rgb(204, 123, 0));
+    color:white;
+    border: none;
+    width: 10%;
+    font-size: .86rem;
+    letter-spacing: 1.2px;
+    padding: 6px 2px 6px 2px;
+
+}
+/* .subscribe-newsletter-info-right-side button:hover{
+
+} */
+
+.subscribe-newsletter-info-right-side input::placeholder{
+    font-family: "Montserrat";
+}
