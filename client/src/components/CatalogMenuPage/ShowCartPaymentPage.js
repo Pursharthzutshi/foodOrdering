@@ -144,9 +144,9 @@ function ShowCartPaymentPage({
 
   return (
     <div>
-              {
+              {/* {
                 test && <Navigate to ="/"/>
-            }
+            } */}
 
       {showLeftContainerBox ? (
         <nav className="show-cart-payment-page">

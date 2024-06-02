@@ -25,15 +25,14 @@ function OrderPurchasedPage({orderLoggedInEmailID,viewOrdersPageDetails}){
                         setOrderDetails(res.data.data)
                    }else {
                        setShowOrder(false);
-                       setOrderDetails("Please Sign In First, Go back to Home Page")
+                       setOrderDetails("There are no orders. If you have not created the account Please Sign In First, Go back to Home Page")
                    }
             
                })    
  
     return(
     <div>
-        <h4>asdasd</h4>
-        <h4>My Orders</h4>
+        <h4 className="my-orders-heading">My Orders</h4>
 
 {
 showOrder?

@@ -3,8 +3,6 @@ import React, { useEffect, useState } from "react";
 import "../CatalogMenuPage/OrderPurchasedPageDetails.css";
 
 function OrderPurchasedPageDetails({ val, loggedInEmailID }) {
-  // const [orderDetails,setOrderDetails] = useState([])
-
   let {
     name,
     Phone_No,
@@ -16,35 +14,39 @@ function OrderPurchasedPageDetails({ val, loggedInEmailID }) {
     itemQuantity,
     orderDate,
   } = val;
+
   console.log(itemName);
+
   return (
     <div className="order-purchased-page-details-page">
-    
-    <div className="orders-details-heading-div">
-    <p>OrderID</p>
-    <p>Name</p>
-    <p>PhoneNo</p>
-    <p>First Address</p>
-    <p>Second Address</p>
-    <p>Price</p>
-    <p>ItemName</p>
-    <p>itemQuantity</p>
-    <p>Order Date</p>
-     
-    </div>
-
-      <div className="order-details-div">
-        <p>{orderID}</p>
-        <p>{name}</p>
-        <p>{Phone_No}</p>
-        <p>{address}</p>
-        <p>{secondAddress}</p>
-        <p>₹{amount / 100}</p>
-        <p>{itemName}</p>
-        <p>{itemQuantity}</p>
-        <p> {orderDate}</p>
-      </div>
-
+      <table className="order-details-table">
+        <thead>
+          <tr>
+            <th>OrderID</th>
+            <th>Name</th>
+            <th>Phone No</th>
+            <th>First Address</th>
+            <th>Second Address</th>
+            <th>Price</th>
+            <th>Item Name</th>
+            <th>Item Quantity</th>
+            <th>Order Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{orderID}</td>
+            <td>{name}</td>
+            <td>{Phone_No}</td>
+            <td>{address}</td>
+            <td>{secondAddress}</td>
+            <td>₹{amount / 100}</td>
+            <td>{itemName}</td>
+            <td>{itemQuantity}</td>
+            <td>{orderDate}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
